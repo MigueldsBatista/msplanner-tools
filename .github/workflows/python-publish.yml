@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine  # Ferramentas para empacotar e publicar
+          pip install setuptools build twine  # Ferramentas para empacotar e publicar
 
       # Instalar o seu pacote localmente para verificar se tudo está funcionando
       - name: Install msplanner-tools locally
@@ -34,15 +34,11 @@ jobs:
       # Gerar o pacote (distribuição)
       - name: Build the package
         run: |
-          python setup.py sdist bdist_wheel  # Isso cria os arquivos .tar.gz e .whl na pasta dist/
-
+          python -m build
+      # Publicar no PyPI
       # Publicar no PyPI
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@v1.6.4
         with:
-          user: ${{ secrets.PYPI_USERNAME }}
-          password: ${{ secrets.PYPI_PASSWORD }}
-        env:
-          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
-
+          user: "__token__"  # Utiliza __token__ como nome de usuário
+          password: ${{ secrets.PYPI_PASSWORD }}  # O token de API será usado como senha
