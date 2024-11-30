@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="msplanner-tools",
-    version="0.1.4",
+    version="0.1.5",
     description="Library to interact with Microsoft Planner via API Graph",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
