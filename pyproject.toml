@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["msplanner-tools"]
+
+[project]
+name = "msplanner-tools"
+version = "0.1.0"
+dependencies = [
+"requests",
+"msal"
+]
+
+description = "Library to interact with Microsoft Planner via API Graph"
+readme = "README.md"
+authors = [
+    { name = "Miguel Batista", email = "miguelsbatista0610@gmail.com" }
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+keywords = ["Microsoft Planner", "API", "Graph", "Python", "Tasks", "Buckets", "Plans"]
+
+[project.urls]
+Repository = "https://github.com/MigueldsBatista/msplanner-tools"
