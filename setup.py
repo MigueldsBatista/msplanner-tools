@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="msplanner-tools",
-    version="0.1.5",
+    version="0.1.6",
     description="Library to interact with Microsoft Planner via API Graph",
     long_description=long_description,
     long_description_content_type="text/markdown",
