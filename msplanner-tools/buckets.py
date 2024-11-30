@@ -1,5 +1,7 @@
 import requests
 import json
+
+
 """
 For more information on using MSAL, visit the official documentation:
 https://msal-python.readthedocs.io/en/latest/
