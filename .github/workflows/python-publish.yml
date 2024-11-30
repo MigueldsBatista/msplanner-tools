@@ -34,7 +34,7 @@ jobs:
       # Gerar o pacote (distribuição)
       - name: Build the package
         run: |
-          python setup.py sdist bdist_wheel  # Isso cria os arquivos .tar.gz e .whl na pasta dist/
+          python -m build  # Isso cria os arquivos .tar.gz e .whl na pasta dist/
 
       # Publicar no PyPI
       - name: Publish to PyPI
