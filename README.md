@@ -8,21 +8,11 @@ To further details and better navigation visit the project page on [Github.](htt
 [Contributing](https://github.com/MigueldsBatista/msplanner-tools/blob/main/contributing.md)
 
 ## Overview
-* <a href="#authentication">Authentication</a>
-* <a href="#plans">Plans</a>
-* <a href="#tasks">Tasks</a>
-* <a href="#buckets">Buckets</a>
-* <a href="#users">Users</a>
-
-## Overview
 * <a href="#authentication"><p>Authentication</p></a>
 * <a href="#plans"><p>Plans</p></a>
 * <a href="#tasks"><p>Tasks</p></a>
 * <a href="#buckets">Buckets</p></a>
 * <a href="#users"><p>Users</p></a>
-
-### Learn how you can contribute
-[Contributing](contributing.md)
 
 ---
 # Authentication
