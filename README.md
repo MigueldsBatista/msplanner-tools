@@ -1,6 +1,19 @@
 # MSPlanner Tools Documentation
 MSPlanner Tools is a Python library designed to streamline interactions with Microsoft Planner via the Microsoft Graph API. This documentation provides an overview of the library's features, focusing on Authentication and managing OAuth2 tokens using the TokenManager class.
 
+### Project Repository
+To further details and better navigation visit the project page on [Github.](https://github.com/MigueldsBatista/msplanner-tools)
+
+### Learn how you can contribute
+[Contributing](https://github.com/MigueldsBatista/msplanner-tools/blob/main/contributing.md)
+
+## Overview
+* <a href="#authentication">Authentication</a>
+* <a href="#plans">Plans</a>
+* <a href="#tasks">Tasks</a>
+* <a href="#buckets">Buckets</a>
+* <a href="#users">Users</a>
+
 ## Overview
 - [Authentication](#authentication)
 - [Plans](#plans)
