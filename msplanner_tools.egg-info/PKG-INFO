@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: msplanner-tools
+Version: 0.1.9
+Summary: Library to interact with Microsoft Planner via API Graph
+Home-page: https://github.com/MigueldsBatista/msplanner-tools
+Author: Miguel Batista
+Author-email: miguelsbatista0610@gmail.com
+License: MIT
+Project-URL: Repository, https://github.com/MigueldsBatista/msplanner-tools
+Project-URL: Documentation, https://github.com/MigueldsBatista/msplanner-tools#readme
+Keywords: Microsoft Planner,API,Graph,Python,Tasks,Buckets,Plans
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # MSPlanner Tools Documentation
 MSPlanner Tools is a Python library designed to streamline interactions with Microsoft Planner via the Microsoft Graph API. This documentation provides an overview of the library's features, focusing on Authentication and managing OAuth2 tokens using the TokenManager class.
 
@@ -407,3 +426,49 @@ print(f'User ID: {user_id}')
 **References**
 - [MSAL Python Documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview)
 - [Microsoft Graph API Overview](https://docs.microsoft.com/en-us/graph/overview)
+
+# Contributing to MSPlanner Tools
+
+Thank you for considering contributing to MSPlanner Tools! We welcome contributions from the community to help improve and expand the functionality of this library.
+
+## How to Contribute
+
+### Reporting Issues
+
+If you encounter any bugs or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/MigueldsBatista/msplanner-tools/issues). Provide as much detail as possible to help us understand and address the issue.
+
+### Submitting Pull Requests
+
+1. **Fork the Repository**: Click the "Fork" button on the top right corner of the repository page to create a copy of the repository in your GitHub account.
+
+2. **Clone the Repository**: Clone your forked repository to your local machine.
+    ```sh
+    git clone https://github.com/MigueldsBatista/msplanner-tools
+    cd msplanner-tools
+    ```
+
+3. **Create a Branch**: Create a new branch for your feature or bug fix.
+    ```sh
+    git checkout -b feature-or-bugfix-name
+    ```
+
+4. **Make Changes**: Implement your changes in the new branch. Ensure your code follows the project's coding standards and includes appropriate tests.
+
+5. **Commit Changes**: Commit your changes with a descriptive commit message.
+    ```sh
+    git add .
+    git commit -m "Description of the changes"
+    ```
+
+6. **Push Changes**: Push your changes to your forked repository.
+    ```sh
+    git push origin feature-or-bugfix-name
+    ```
+
+7. **Create a Pull Request**: Go to the original repository and create a pull request from your forked repository. Provide a detailed description of your changes and the problem they solve.
+
+### Code Style
+
+Please follow the existing code style and conventions used in the project. Ensure your code is well-documented and includes docstrings for functions and classes.
+
+
