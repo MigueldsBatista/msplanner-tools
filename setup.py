@@ -1,11 +1,13 @@
 from setuptools import setup, find_packages
 # Lê o README.md como descrição longa
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
+long_description = (
+    open("README.md").read()
+    + "\n\n"
+    + open("contributing.md").read()
+)
 setup(
     name="msplanner-tools",
-    version="0.1.9",
+    version="0.1.91",
     description="Library to interact with Microsoft Planner via API Graph",
     long_description=long_description,
     long_description_content_type="text/markdown",
