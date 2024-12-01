@@ -21,9 +21,6 @@ To further details and better navigation visit the project page on [Github.](htt
 * <a href="#buckets">Buckets</p></a>
 * <a href="#users"><p>Users</p></a>
 
-### Learn how you can contribute
-[Contributing](contributing.md)
-
 ---
 # Authentication
 
